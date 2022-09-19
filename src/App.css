@@ -1,0 +1,30 @@
+:root{
+    --background-color-dark: #353535;
+    --background-color-light: #fffadf;
+    --text-light: #fff;
+    --text-dark: #3b3b3b;
+    --primary-color: #0069b4; 
+    --secundary-color: #026EE0;
+}
+
+body{
+    background-color: var(--background-color-dark);
+}
+
+.container{
+    margin-top: 10vh !important;
+}
+
+.paper{
+    padding: 30px;
+    border-radius: 0 !important;
+}
+
+.list{
+    padding: 60px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
